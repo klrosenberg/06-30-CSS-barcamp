@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+  position: relative;
+  top: -22px;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+body {
+  color: #394B63;
+  font-family: monospace;
+}
+
+img.displayed{
+  margin-left: auto;
+  margin-right: auto 
+}
+
+#head {
+  position: relative;
+  top: 8px;
+  background-color: rgb(43, 72, 70);
+  width: 370px;
+}
+
+#main {
+  position: relative;
+  top: -12px;
+}
+
+#foot {
+  position: relative;
+  top: -37px;
+  padding-left: 55px;
+  background-color: rgb(83, 100, 98);
+  width: 370px;
+}
+
+
+#page2 {
+  padding: 16px;
+}
+
+#page2 h2 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+#page2 p {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.dash {
+  background-repeat: repeat-x;
+}
+
+#page3 h2 {
+  padding: 16px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.topics {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+.topics h3 {
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+  color: rgb(80, 134, 80);
+}
+
+.topics p {
+  font-size: 14px;
+  text-align: center;
+  color: rgb(129, 68, 25);
+}
+
+
+
+
+
