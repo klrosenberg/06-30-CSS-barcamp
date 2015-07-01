@@ -13,12 +13,7 @@ body {
   font-family: monospace;
 }
 
-img.displayed{
-  margin-left: auto;
-  margin-right: auto 
-}
-
-#head {
+#topbar {
   position: relative;
   top: 8px;
   background-color: rgb(43, 72, 70);
@@ -30,7 +25,7 @@ img.displayed{
   top: -12px;
 }
 
-#foot {
+#bottombar {
   position: relative;
   top: -37px;
   padding-left: 55px;
@@ -38,23 +33,22 @@ img.displayed{
   width: 370px;
 }
 
-
-#page2 {
-  padding: 16px;
-}
-
 #page2 h2 {
   font-size: 36px;
+  text-align: center;
   line-height: 40px;
 }
 
 #page2 p {
-  font-size: 15px;
-  line-height: 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
-.dash {
+#page2 {
+  background-image: url("assets/part2/dash-horizontal.png");
   background-repeat: repeat-x;
+  background-position: bottom;
 }
 
 #page3 h2 {
@@ -80,7 +74,63 @@ img.displayed{
   color: rgb(129, 68, 25);
 }
 
+#page4 {
+  background-image: url("assets/part3/wood-bg.png");
+  background-repeat: repeat-y;
+  background-position: center;
+  text-align: center;
+  font-family: Times New Roman, serif;
+  color: white;
+}
 
+#page4 .displayed {
+  width: 80%;
+  position: relative;
+  top: 90px;
+}
 
+.date {
+  color: rgb(215, 181, 11);
+  font-size: 40px;
+  position: relative;
+  top: 90px;
+  margin: 70px;
+  line-height: 45px;
+}
 
+.location {
+  font-size: 18px;
+  padding: 20px;
+}
 
+.time {
+  font-size: 36px;
+  line-height: 1px;
+  padding: 4px;
+  border: 3px solid rgb(217, 83, 40);
+  border-radius: 80px;
+  width: 32%;
+  height: 32%;
+  margin: auto;
+  
+}
+
+.time p {
+  font-size: 16px;
+}
+
+.event {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#page4 .middisplayed {
+  width: 80%;
+  position: relative;
+  top: 40px;
+}
