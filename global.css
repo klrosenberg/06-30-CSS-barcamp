@@ -33,25 +33,25 @@ body {
   width: 370px;
 }
 
-#page2 h2 {
+#page1 h2 {
   font-size: 36px;
   text-align: center;
   line-height: 40px;
 }
 
-#page2 p {
+#page1 p {
   margin-left: 10px;
   font-size: 16px;
   line-height: 22px;
 }
 
-#page2 {
+#page1 {
   background-image: url("assets/part2/dash-horizontal.png");
   background-repeat: repeat-x;
   background-position: bottom;
 }
 
-#page3 h2 {
+#page2 h2 {
   padding: 16px;
   font-size: 24px;
   text-align: center;
@@ -74,16 +74,17 @@ body {
   color: rgb(129, 68, 25);
 }
 
-#page4 {
+#page3 {
   background-image: url("assets/part3/wood-bg.png");
   background-repeat: repeat-y;
   background-position: center;
+  width: 370px;
   text-align: center;
-  font-family: Times New Roman, serif;
+  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
   color: white;
 }
 
-#page4 .displayed {
+#page3 .displayed {
   width: 80%;
   position: relative;
   top: 90px;
@@ -129,8 +130,53 @@ body {
   padding-right: 20px;
 }
 
-#page4 .middisplayed {
+#page3 .middisplayed {
   width: 80%;
   position: relative;
   top: 40px;
+}
+
+#page4 {
+  background-color: rgb(201, 236, 248);
+  text-align: center;
+  width: 370px;
+  position: relative;
+  top: -15px;
+  color: rgb(133, 91, 56);
+  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+  font-size: 17px;
+}
+
+#page4 p {
+  width: 370px;
+  position: relative;
+  top: 30px;
+}
+
+.question {
+  text-align: left;
+}
+
+.question span {
+  position: relative;
+  top: -5px;
+}
+
+#page4 .bottomdisplay {
+  background-position: center;
+}
+
+#page5 .register {
+  width: 370px;
+  position: relative;
+  top: -22px;
+}
+
+#page5 a {
+  display: inline-block;
+  width: 200px;
+  height: 75px;
+  position: relative;
+  top: -365px;
+  left: 85px;
 }
